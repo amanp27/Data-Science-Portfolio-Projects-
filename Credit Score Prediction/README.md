@@ -22,8 +22,8 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
 
 ## Key Columns 💡
 
-`Age`: Age of the customer.
-`Annual_Income`: The customer's annual income.
-`Num_Bank_Accounts`: Number of bank accounts held by the customer.
-`Credit_Mix`: Type of credit used by the customer.
-`Credit_Score`: Our target variable (only in the training dataset).
+* `Age`: Age of the customer.
+* `Annual_Income`: The customer's annual income.
+* `Num_Bank_Accounts`: Number of bank accounts held by the customer.
+* `Credit_Mix`: Type of credit used by the customer.
+* `Credit_Score`: Our target variable (only in the training dataset).
