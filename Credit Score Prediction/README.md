@@ -20,7 +20,7 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
 * Training Dataset (`train_cs`): Contains 150,000 rows and 28 columns, including features like `Age`, `Annual Income`, `Monthly Salary`, `Credit History`, etc.
 * Test Dataset (`test_cs`): Contains 50,000 rows and 27 columns (missing the Credit Score column which is our target variable).
 
-## Data Preprocessing:
+## 📝 Data Preprocessing:
 ### Missing Values:
 * Handled missing values by:
   * Dropping columns with less than 5% missing values.
