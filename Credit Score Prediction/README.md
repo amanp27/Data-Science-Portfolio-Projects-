@@ -15,10 +15,28 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
 
 * The project also aims to derive actionable insights into factors influencing credit scores, ensuring the model's practical relevance and interpretability.
 
-## 🔍 Data Understanding (Step 1)
+## 🔍 Data Understanding.
 ### Datasets 📂
 * Training Dataset (`train_cs`): Contains 150,000 rows and 28 columns, including features like `Age`, `Annual Income`, `Monthly Salary`, `Credit History`, etc.
 * Test Dataset (`test_cs`): Contains 50,000 rows and 27 columns (missing the Credit Score column which is our target variable).
+
+## Data Preprocessing:
+### Missing Values:
+* Handled missing values by:
+  * Dropping columns with less than 5% missing values.
+  * Deferring the treatment of columns with higher missing values to later stages.
+
+* Duplicate Entries:
+  * Checked and removed duplicate rows to ensure data quality.
+
+* Data Types:
+  * Verified and ensured correct data types for each column (handled during feature engineering).
+
+* Outliers Detection:
+  * Conducted an outlier check for numerical features and ensured proper handling.
+ 
+* Export:
+  * Saved the preprocessed data into `preprocessed_train.csv` and `preprocessed_test.csv`.
 
 ## Key Columns 💡
 
