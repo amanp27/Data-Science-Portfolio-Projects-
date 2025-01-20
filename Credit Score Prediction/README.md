@@ -37,6 +37,14 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
  
 * Export:
   * Saved the preprocessed data into `preprocessed_train.csv` and `preprocessed_test.csv`.
+ 
+ ## 📝 Data Assesing and Univariate Analysis:
+
+* Handling Missing Values: Missing data was imputed using KNN Imputation or appropriate methods for each column.
+* Feature Transformation: Columns such as Credit_History_Age were converted to months for uniformity.
+* Outlier Treatment: Applied capping and transformations to handle extreme values.
+* Univariate and bivariate analysis to understand data distribution
+* Visualization of key features using bar plots, histograms, and boxplots.
 
 ## Key Columns 💡
 
