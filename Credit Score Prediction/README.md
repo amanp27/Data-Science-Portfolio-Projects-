@@ -46,7 +46,7 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
 * Univariate and bivariate analysis to understand data distribution
 * Visualization of key features using bar plots, histograms, and boxplots.
 
-## **1.2 Exploratory Data Analysis (EDA)**
+## **Exploratory Data Analysis (EDA)**
 
 #### **Univariate Analysis:**
 - Visualized individual column distributions to understand data spread and outliers.
@@ -60,6 +60,7 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
 - Studied relationships between multiple features simultaneously to identify key interactions:
   - Correlation heatmaps to find relationships between numerical columns.
   - Pairplots for visualizing feature relationships.
+ 
 
 ## **Feature Engineering:**
   - Mapped the target variable `Credit_Score` into numerical classes (0, 1, 2, 3).
