@@ -68,6 +68,19 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
   - Used `One-Hot Encoding` for features such as `Occupation`, `Payment_Behaviour`, and `Payment_of_Min_Amount`.
   - Aligned train and test datasets to ensure consistency in feature columns.
 
+## 🤖 4. Model Training & Evaluation
+* Implemented Logistic Regression, Random Forest, SVM, KNN, Gradient Boosting, and XGBoost for classification.
+* Used Cross-Validation (CV) to get a reliable estimate of model performance.
+* Final model accuracy after cross-validation:
+  * Gradient Boosting: 69.21%
+  * Random Forest: 68.85%
+  * SVM: 68.57%
+  * Logistic Regression: 63.84%
+  * KNN: 62.99%
+  
+## 🏆 5. Hyperparameter Tuning (for Gradient Boosting)
+Optimized learning rate, depth, and number of estimators for better performance.
+
 ## Key Columns 💡
 
 * `Age`: Age of the customer.
@@ -75,3 +88,10 @@ Welcome to the Credit Score Prediction project! This project aims to predict the
 * `Num_Bank_Accounts`: Number of bank accounts held by the customer.
 * `Credit_Mix`: Type of credit used by the customer.
 * `Credit_Score`: Our target variable (only in the training dataset).
+
+## 📌 Technologies Used
+* Programming Language: Python 🐍
+* Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn, XGBoost
+* Machine Learning Models: Logistic Regression, SVM, Random Forest, KNN, Gradient Boosting
+* Data Processing: Feature Selection, Encoding, SMOTE, MinMax Scaling
+* Model Evaluation: Cross-Validation, Hyperparameter Tuning
